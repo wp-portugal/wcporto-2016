@@ -1,1 +1,317 @@
 // header & footer
+
+/* =Header
+----------------------------------------------- */
+.site-header {
+	position: relative;
+	margin-bottom: 7.75em;
+	border-top: .5em solid $color-set-2-1;
+	box-shadow: inset 0 10px 60px transparentize($color-set-1-1, .5);
+	background: $color-set-2-1 url('//2015.la.wordcamp.org/files/2015/05/header.jpg') 50% 100% no-repeat;
+	background-size: cover;
+	text-align: center;
+
+	hgroup {
+		padding: 5% 0;
+	}
+
+	img {
+		max-width: 80%;
+	}
+}
+
+.site-title {
+	margin: 0 auto;
+	background: url('//2015.la.wordcamp.org/files/2015/05/logo.png');
+	background-size: 100% auto;
+	width: 271px;
+	height: 125px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+
+	@media only screen and (min-width: $size-m) {
+		width: 452px;
+		height: 208px;
+	}
+
+	@media only screen and (min-width: $size-l) {
+		width: 543px;
+		height: 250px;
+	}
+}
+
+.site-description {
+	display: none;
+}
+
+/* =Menu
+----------------------------------------------- */
+.menu-primary-nav-container {
+	display: block;
+	margin: auto;
+	width: 100%;
+	max-width: 960px !important;
+}
+
+.main-navigation {
+	display: block;
+	position: absolute;
+	bottom: -5em;
+	left: 0;
+	float: left;
+	clear: both;
+	background: $white;
+	width: 100%;
+	text-align: left;
+
+	ul {
+		margin: 0 auto;
+		padding: 0 1em;
+		max-width: $max-width;
+		list-style: none;
+
+		ul {
+			display: none;
+			position: absolute;
+			top: 4em;
+			left: 0;
+			float: left;
+			z-index: 99999;
+			box-shadow: 0 3px 3px rgba(0, 0, 0, .2);
+			background: transparentize($white, .1);
+			padding: .5em 1.125em;
+			width: auto;
+
+			ul {
+				top: 0;
+				left: 100%;
+			}
+
+			li {
+				display: block;
+			}
+
+			a {
+				padding: .75em 0;
+				width: 200px;
+				white-space: nowrap;
+
+				&:before {
+					margin-right: 0;
+					content: '';
+				}
+			}
+		}
+
+		> li {
+			display: inline-block;
+
+			&:first-child a:before {
+				content: '';
+			}
+
+			a {
+				display: block;
+				transition: color 300ms;
+				padding: 1.5em .5em 1.5em 0;
+				text-transform: uppercase;
+				text-decoration: none;
+				color: $color-set-2;
+
+				&:before {
+					margin-right: .75em;
+					color: $color-set-1-3;
+					content: '|';
+				}
+
+				&:hover {
+					color: $color-set-4-1;
+				}
+			}
+
+			.menu-item-has-children {
+				position: relative;
+
+				> a {
+					padding-right: 1em;
+
+					&:after {
+						position: absolute;
+						top: 50%;
+						right: .2963em;
+						margin-top: -2px;
+						border: 4px solid transparent;
+						border-top-color: $color-set-2-1;
+						width: 0;
+						height: 0;
+						content: '';
+					}
+
+					&:hover:after {
+						border-top-color: $color-set-4-2;
+					}
+				}
+			}
+		}
+
+		@media only screen and (min-width: $size-l) {
+			max-width: $max-width-l;
+		}
+	}
+
+	li {
+		position: relative;
+		float: left;
+
+		&:hover > ul {
+			display: block;
+		}
+
+		&.current-menu-item,
+		&.current_page_item,
+		&.current_page_ancestor,
+		&.current-menu-parent {
+			> a {
+				color: $color-set-1-1;
+			}
+		}
+	}
+
+	a {
+		display: block;
+		text-decoration: none;
+	}
+}
+
+/* =Mobile Menu
+----------------------------------------------- */
+.main-small-navigation {
+	position: absolute;
+	background: transparentize($white, .05);
+	width: 100%;
+
+	.menu {
+		display: none;
+	}
+
+	.menu-primary-container > ul {
+		display: none;
+		border-bottom: 5px solid $color-set-2-1;
+	}
+
+	.menu-toggle {
+		display: inline-block;
+		cursor: pointer;
+		padding: 1em;
+		width: auto;
+		font-size: 1.125em;
+	}
+
+	ul {
+		padding: 0 1em 1em;
+		text-align: left;
+	}
+
+	a {
+		display: block;
+		border-bottom: 1px solid $color-set-1-3;
+		padding: .75em 0;
+	}
+}
+
+.menu-toggle {
+	cursor: pointer;
+}
+
+/* =Post Navigation
+----------------------------------------------- */
+.post-navigation {
+	margin-bottom: 1.75em;
+	padding: 0 2.5em;
+	line-height: 1.5;
+
+	&:after {
+		display: table;
+		clear: both;
+		content: '';
+	}
+
+	.nav-previous,
+	.nav-next {
+		a {
+			color: $color-set-1-1;
+
+			&:hover {
+				color: $color-set-4-2;
+			}
+		}
+	}
+
+	.nav-previous {
+		float: left;
+	}
+
+	.nav-next {
+		float: right;
+	}
+}
+
+
+/* =Footer
+----------------------------------------------- */
+footer {
+	.entry-meta {
+		margin: 2.25em 0 0;
+		border-top: 1px solid $color-set-3-1;
+		border-bottom: 1px solid $color-set-3-1;
+		padding: .5em 0;
+		line-height: 1.5;
+		color: $color-set-1-2;
+
+		.sep {
+			margin: 0 .25em;
+		}
+	}
+}
+
+.site-footer {
+	background: $white;
+}
+
+.site-info {
+	background: $color-set-5;
+	background-image: url('//2015.la.wordcamp.org/files/2015/05/binding-dark.png');
+	padding: 3.75em 1em;
+	text-align: center;
+
+	.site-info-generator {
+		display: block;
+		background: url('//2015.la.wordcamp.org/files/2015/05/logo-footer.png') 50% 0 no-repeat;
+		padding-top: 5em;
+		color: $white;
+
+		&:hover {
+			color: $color-set-3;
+		}
+	}
+
+	.site-info-network {
+		position: absolute;
+		top: 0;
+		left: 1.125em;
+		background: url('//2015.la.wordcamp.org/files/2015/05/header-ribbon.png') 50% 0 no-repeat;
+		cursor: pointer;
+		padding: 7px 10px 0;
+		width: 95px;
+		height: 78px;
+		text-decoration: none;
+		color: $color-set-5;
+		font-size: .75em;
+		box-sizing: border-box;
+
+		&:hover {
+			color: $color-set-4-2;
+		}
+	}
+}

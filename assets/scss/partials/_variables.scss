@@ -1,1 +1,38 @@
 // Variables
+
+/* =Responsive break points
+----------------------------------------------- */
+$size-s: 480px;
+$size-m: 768px;
+$size-l: 1024px;
+
+/* =Responsive dimensions
+----------------------------------------------- */
+$max-width: 90%;
+$max-width-l: 60em;
+
+/* =Colors
+----------------------------------------------- */
+$color-set-1: #604b43;
+$color-set-1-1: lighten($color-set-1, 20%);
+$color-set-1-2: lighten($color-set-1, 40%);
+$color-set-1-3: lighten($color-set-1, 60%);
+$color-set-1-4: lighten($color-set-1, 90%);
+
+$color-set-2: #62aa9f;
+$color-set-2-1: lighten($color-set-2, 10%);
+$color-set-2-2: lighten($color-set-2, 80%);
+
+$color-set-3: #fdc17b;
+$color-set-3-1: lighten($color-set-3, 20%);
+$color-set-3-2: lighten($color-set-3, 60%);
+
+$color-set-4: #df3124;
+$color-set-4-1: lighten($color-set-4, 10%);
+$color-set-4-2: lighten($color-set-4, 30%);
+
+$color-set-5: #0e5a6a;
+$color-set-6: #1aaacd;
+
+$white: #fff;
+$black: #000;

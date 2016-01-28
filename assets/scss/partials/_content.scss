@@ -1,1 +1,326 @@
 // Content
+/* =Content
+----------------------------------------------- */
+.hentry {
+	margin: 0 0 1.5em;
+}
+
+.entry-meta {
+	clear: both;
+}
+
+.byline {
+	display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+/* =Asides
+----------------------------------------------- */
+.blog .format-aside .entry-title,
+.archive .format-aside .entry-title {
+	display: none;
+}
+
+
+/* =Media
+----------------------------------------------- */
+.site-header img,
+.entry-content img,
+.comment-content img,
+.widget img {
+	max-width: 100%;
+}
+
+.site-header img,
+.entry-content img,
+img[class*='align'],
+img[class*='wp-image-'] {
+	height: auto;
+}
+
+.site-header img,
+.entry-content img,
+img.size-full {
+	width: auto;
+	max-width: 100%;
+}
+
+.entry-content img.wp-smiley,
+.comment-content img.wp-smiley {
+	margin-top: 0;
+	margin-bottom: 0;
+	border: 0;
+	padding: 0;
+}
+
+.wp-caption {
+	border: 1px solid #ccc;
+	max-width: 100%;
+
+	img {
+		display: block;
+		margin: 1.2% auto 0;
+		max-width: 98%;
+	}
+
+	.wp-caption-text {
+		margin: .75em 0;
+	}
+}
+
+.wp-caption.aligncenter,
+.wp-caption.alignleft,
+.wp-caption.alignright {
+	margin-bottom: 1.5em;
+}
+
+.wp-caption-text {
+	text-align: center;
+}
+
+#content {
+	.gallery {
+		margin-bottom: 1.5em;
+
+		a img {
+			border: 0;
+			max-width: $max-width;
+			height: auto;
+		}
+
+		dd {
+			margin: 0;
+		}
+	}
+}
+
+/* =Main wrapper
+----------------------------------------------- */
+#main {
+	margin: 3.375em auto 2.25em;
+	background: url('//2015.la.wordcamp.org/files/2015/05/logo-prefooter.png') 50% 100% no-repeat;
+	padding-bottom: 8em;
+	max-width: $max-width;
+
+	@media only screen and (min-width: $size-l) {
+		max-width: $max-width-l;
+	}
+
+	&:after {
+		display: table;
+		clear: both;
+		content: '';
+	}
+}
+
+/* =Body
+----------------------------------------------- */
+#primary {
+	padding: 0 1em;
+	box-sizing: border-box;
+
+	@media only screen and (min-width: $size-l) {
+		float: left;
+		width: 70%;
+	}
+}
+
+article {
+	&.post,
+	&.page {
+		margin-bottom: 2.5em;
+		border-radius: 2px;
+		box-shadow: 0 0 12px transparentize($color-set-1-1, .9);
+		background-color: $white;
+		background-image: url('//2015.la.wordcamp.org/files/2015/05/divider-post.png'),
+						  url('//2015.la.wordcamp.org/files/2015/05/divider-post-after.png');
+		background-repeat: no-repeat, no-repeat;
+		background-position: 0 0, 50% 100%;
+		padding: 2.5em;
+		padding-top: 10em;
+		padding-bottom: 123px;
+	}
+}
+
+.entry-header {
+	margin-bottom: 1.5em;
+}
+
+.entry-title {
+	transition: color 300ms;
+	margin-bottom: .75em;
+	line-height: 1.125;
+	font-size: 2.5em;
+
+	a {
+		text-decoration: none;
+		color: inherit;
+
+		&:hover {
+			color: $color-set-2-1;
+		}
+	}
+
+	+ .entry-meta {
+		color: $color-set-1-2;
+		font-family: 'Crete Round', serif;
+		font-size: 1.5em;
+
+		a {
+			transition: color 300ms;
+			text-decoration: none;
+			color: $color-set-3;
+
+			&:hover {
+				color: $color-set-4;
+			}
+		}
+	}
+}
+
+.entry-content {
+	> p:first-of-type {
+		margin-bottom: 1.125em;
+		font-family: 'Crete Round', serif;
+		font-size: 1.125em;
+	}
+
+	blockquote {
+		margin: 2.25em 1em;
+		font-size: 1.75em;
+	}
+}
+
+.comment-content blockquote {
+	margin: 1.5em .75em;
+	font-size: 1.5em;
+}
+
+.entry-content p,
+.comment-content p,
+.entry-content address {
+	margin: 0 0 1em;
+	line-height: 1.5;
+}
+
+.entry-content,
+.comment-content {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		margin: 2.25em 0 .75em;
+		line-height: 1.125;
+	}
+
+	h1 {
+		font-size: 2.5em;
+	}
+
+	h2 {
+		font-size: 2.25em;
+	}
+
+	h3 {
+		font-size: 1.75em;
+	}
+
+	h4 {
+		font-size: 1.5em;
+	}
+
+	h5 {
+		font-size: 1.125em;
+	}
+
+	h6 {
+		font-size: 1em;
+	}
+
+	a {
+		transition: color 300ms;
+		text-decoration: none;
+		color: $color-set-4-2;
+
+		&:hover {
+			color: $color-set-2;
+		}
+	}
+
+	strong {
+		font-weight: 700;
+	}
+
+	em {
+		font-style: italic;
+	}
+
+	blockquote {
+		border-top: 1px solid $color-set-6;
+		border-bottom: 1px solid $color-set-6;
+		padding: 1em;
+		font-family: 'Crete Round', serif;
+
+		p:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	ul {
+		margin: 0 0 1em 2.5em;
+		list-style-type: square;
+	}
+
+	ol {
+		margin: 0 0 1em 2.5em;
+		list-style-type: decimal;
+	}
+
+	li {
+		margin-bottom: .25em;
+		line-height: 1.5;
+	}
+
+	label {
+		display: block;
+		margin: .75em 0 .25em;
+		line-height: 1.125;
+		font-size: 1.125em;
+		font-weight: 700;
+
+		span {
+			padding-left: .25em;
+			color: $color-set-4-2;
+			font-size: .75em;
+		}
+	}
+}
+
+
+/* =Widgets
+----------------------------------------------- */
+#secondary {
+	padding: 0 1em;
+	box-sizing: border-box;
+
+	@media only screen and (min-width: $size-l) {
+		float: right;
+		width: 30%;
+	}
+}
