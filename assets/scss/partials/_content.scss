@@ -177,7 +177,7 @@ article {
 
 	+ .entry-meta {
 		color: $color-set-1-2;
-		font-family: 'Crete Round', serif;
+		font-family: $font-hightlight;
 		font-size: 1.5em;
 
 		a {
@@ -195,7 +195,7 @@ article {
 .entry-content {
 	> p:first-of-type {
 		margin-bottom: 1.125em;
-		font-family: 'Crete Round', serif;
+		font-family: $font-hightlight;
 		font-size: 1.125em;
 	}
 
@@ -275,7 +275,7 @@ article {
 		border-top: 1px solid $color-set-6;
 		border-bottom: 1px solid $color-set-6;
 		padding: 1em;
-		font-family: 'Crete Round', serif;
+		font-family: $font-hightlight;
 
 		p:last-child {
 			margin-bottom: 0;

@@ -286,6 +286,8 @@ input::-moz-focus-inner {
 ----------------------------------------------- */
 /* =Colors
 ----------------------------------------------- */
+/* =Fonts
+----------------------------------------------- */
 body {
   background: #eee9e7;
   background-image: url("//2015.la.wordcamp.org/files/2015/05/otis-redding.png");
@@ -306,7 +308,7 @@ a {
   clip: rect(1px 1px 1px 1px); }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1em; }
 
 h1,
@@ -315,7 +317,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Crete Round', serif; }
+  font-family: "Crete Round", serif; }
 
 /* =Header
 ----------------------------------------------- */
@@ -673,7 +675,7 @@ article.post, article.page {
       color: #83bcb3; }
   .entry-title + .entry-meta {
     color: #c4b2ab;
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
     font-size: 1.5em; }
     .entry-title + .entry-meta a {
       transition: color 300ms;
@@ -684,7 +686,7 @@ article.post, article.page {
 
 .entry-content > p:first-of-type {
   margin-bottom: 1.125em;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-size: 1.125em; }
 
 .entry-content blockquote {
@@ -762,7 +764,7 @@ article.post, article.page {
   border-top: 1px solid #1aaacd;
   border-bottom: 1px solid #1aaacd;
   padding: 1em;
-  font-family: 'Crete Round', serif; }
+  font-family: "Crete Round", serif; }
   .entry-content blockquote p:last-child,
   .comment-content blockquote p:last-child {
     margin-bottom: 0; }
