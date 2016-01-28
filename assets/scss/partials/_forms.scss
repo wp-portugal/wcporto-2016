@@ -19,6 +19,12 @@ input[type='submit']:hover {
 
 /* =Comments
 ----------------------------------------------- */
+.page {
+	.comments-area {
+		display: none;
+	}
+}
+
 .entry-content,
 .comment-content {
 	input[type='text'],

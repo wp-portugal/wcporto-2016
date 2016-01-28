@@ -289,6 +289,7 @@ input::-moz-focus-inner {
 /* =Fonts
 ----------------------------------------------- */
 body {
+  position: relative;
   background: #eee9e7;
   background-image: url("//2015.la.wordcamp.org/files/2015/05/otis-redding.png");
   color: #604b43; }
@@ -946,6 +947,9 @@ input[type='submit']:hover {
 
 /* =Comments
 ----------------------------------------------- */
+.page .comments-area {
+  display: none; }
+
 .entry-content input[type='text'],
 .entry-content input[type='email'],
 .entry-content textarea,
