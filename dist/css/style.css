@@ -798,15 +798,21 @@ article.post, article.page {
     color: #f3afa9;
     font-size: .75em; }
 
-/* =Widgets
+/* =Organizers
 ----------------------------------------------- */
-#secondary {
-  padding: 0 1em;
-  box-sizing: border-box; }
-  @media only screen and (min-width: 1024px) {
-    #secondary {
-      float: right;
-      width: 30%; } }
+.wcorg-organizer {
+  border-bottom: 1px solid #eee9e7; }
+  .wcorg-organizer:first-child {
+    border-top: 1px solid #eee9e7; }
+  .wcorg-organizer .wcorg-organizer-description:after {
+    display: table;
+    clear: both;
+    content: ''; }
+  .wcorg-organizer .avatar {
+    float: left;
+    margin: 0 1em 1em 0; }
+  .wcorg-organizer .sharedaddy {
+    display: none; }
 
 #after-header-widgets {
   margin: 1.5em auto;
@@ -875,6 +881,14 @@ article.post, article.page {
 
 #primary-sidebar #subscribe-submit {
   text-align: center; }
+
+#secondary {
+  padding: 0 1em;
+  box-sizing: border-box; }
+  @media only screen and (min-width: 1024px) {
+    #secondary {
+      float: right;
+      width: 30%; } }
 
 .widget p {
   margin: 0 0 1em;
