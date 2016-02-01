@@ -318,7 +318,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Crete Round", serif; }
+  font-family: "Lobster", serif; }
 
 /* =Header
 ----------------------------------------------- */
@@ -676,7 +676,7 @@ article.post, article.page {
       color: #0056a7; }
   .entry-title + .entry-meta {
     color: #dee5ee;
-    font-family: "Crete Round", serif;
+    font-family: "Lobster", serif;
     font-size: 1.5em; }
     .entry-title + .entry-meta a {
       transition: color 300ms;
@@ -687,7 +687,7 @@ article.post, article.page {
 
 .entry-content > p:first-of-type {
   margin-bottom: 1.125em;
-  font-family: "Crete Round", serif;
+  font-family: "Lobster", serif;
   font-size: 1.125em; }
 
 .entry-content blockquote {
@@ -765,7 +765,7 @@ article.post, article.page {
   border-top: 1px solid #1aaacd;
   border-bottom: 1px solid #1aaacd;
   padding: 1em;
-  font-family: "Crete Round", serif; }
+  font-family: "Lobster", serif; }
   .entry-content blockquote p:last-child,
   .comment-content blockquote p:last-child {
     margin-bottom: 0; }
