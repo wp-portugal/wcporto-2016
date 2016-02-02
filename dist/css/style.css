@@ -531,11 +531,12 @@ footer .entry-meta {
     top: .7em;
     left: 1.125em;
     transition: all 200ms;
-    background: url("//2015.la.wordcamp.org/files/2015/05/header-ribbon.png") 50% 0 no-repeat;
+    background: url("//2016.porto.wordcamp.org/files/2016/02/wc-central.png") 50% 0 no-repeat;
+    opacity: .7;
     cursor: pointer;
     padding: 7px 10px 0;
     width: 95px;
-    height: 78px;
+    height: 95px;
     text-decoration: none;
     color: #24648E;
     font-size: .75em;
