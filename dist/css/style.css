@@ -314,11 +314,7 @@ body {
   font-size: 1em; }
 
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2 {
   font-family: "Lobster", serif; }
 
 /* =Header
@@ -852,6 +848,7 @@ article.post, article.page {
     #after-header-widgets .widget span {
       display: block;
       margin: .5em;
+      text-align: center;
       color: #f9f4ef; }
     #after-header-widgets .widget:nth-child(1) a {
       background-color: #24648E; }
