@@ -817,6 +817,8 @@ article.post, article.page {
     display: table;
     clear: both;
     content: ''; }
+  .wcorg-organizer .wcorg-organizer-description p {
+    margin: 0 0 1em 7.5em; }
   .wcorg-organizer .avatar {
     float: left;
     margin: 0 1em 1em 0; }

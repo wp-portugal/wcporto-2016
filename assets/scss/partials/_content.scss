@@ -323,10 +323,16 @@ article {
 		border-top: 1px solid $color-set-1-3;
 	}
 
-	.wcorg-organizer-description:after {
-		display: table;
-		clear: both;
-		content: '';
+	.wcorg-organizer-description{
+		&:after {
+			display: table;
+			clear: both;
+			content: '';
+		}
+
+		p {
+			margin: 0 0 1em 7.5em;
+		}
 	}
 
 	.avatar {
