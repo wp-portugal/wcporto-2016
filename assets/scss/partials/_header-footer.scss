@@ -5,9 +5,9 @@
 .site-header {
 	position: relative;
 	margin-bottom: 7.75em;
-	border-top: .5em solid $color-set-2-1;
+	border-top: .5em solid $color-set-1-1;
 	box-shadow: inset 0 10px 60px transparentize($color-set-1-1, .5);
-	background: $color-set-2-1 url('//2016.porto.wordcamp.org/files/2016/01/15030374120_980b319012_o.jpg') 50% 100% no-repeat;
+	background: $color-set-1-1 url('//2016.porto.wordcamp.org/files/2016/02/23913412746_2fb0625c24_o.jpg') 50% 100% no-repeat;
 	background-size: cover;
 	text-align: center;
 
@@ -20,23 +20,31 @@
 	}
 }
 
-.site-title {
+.site-title a {
+	display: block;
+	transition: all 200ms;
+	opacity: .95;
 	margin: 0 auto;
-	background: url('//2015.la.wordcamp.org/files/2015/05/logo.png');
+	background: url('//2016.porto.wordcamp.org/files/2016/02/lettring-logo.png');
+	background-repeat: no-repeat;
 	background-size: 100% auto;
-	width: 271px;
+	width: 225px;
 	height: 125px;
 	overflow: hidden;
 	text-indent: 100%;
 	white-space: nowrap;
 
 	@media only screen and (min-width: $size-m) {
-		width: 452px;
+		width: 440px;
 		height: 208px;
+
+		&:hover {
+			opacity: .8;
+		}
 	}
 
 	@media only screen and (min-width: $size-l) {
-		width: 543px;
+		width: 550px;
 		height: 250px;
 	}
 }
@@ -117,7 +125,7 @@
 				padding: 1.5em .5em 1.5em 0;
 				text-transform: uppercase;
 				text-decoration: none;
-				color: $color-set-2;
+				color: $color-set-1;
 
 				&:before {
 					margin-right: .75em;
@@ -126,7 +134,7 @@
 				}
 
 				&:hover {
-					color: $color-set-4-1;
+					color: $color-set-4;
 				}
 			}
 
@@ -142,14 +150,14 @@
 						right: .2963em;
 						margin-top: -2px;
 						border: 4px solid transparent;
-						border-top-color: $color-set-2-1;
+						border-top-color: $color-set-1;
 						width: 0;
 						height: 0;
 						content: '';
 					}
 
 					&:hover:after {
-						border-top-color: $color-set-4-2;
+						border-top-color: $color-set-4;
 					}
 				}
 			}
@@ -197,7 +205,7 @@
 
 	.menu-primary-container > ul {
 		display: none;
-		border-bottom: 5px solid $color-set-2-1;
+		border-bottom: 5px solid $color-set-1-1;
 	}
 
 	.menu-toggle {
@@ -243,7 +251,7 @@
 			color: $color-set-1-1;
 
 			&:hover {
-				color: $color-set-4-2;
+				color: $color-set-4;
 			}
 		}
 	}
@@ -280,38 +288,37 @@ footer {
 }
 
 .site-info {
-	background: $color-set-5;
-	background-image: url('//2015.la.wordcamp.org/files/2015/05/binding-dark.png');
-	padding: 3.75em 1em;
 	text-align: center;
 
 	.site-info-generator {
 		display: block;
-		background: url('//2015.la.wordcamp.org/files/2015/05/logo-footer.png') 50% 0 no-repeat;
-		padding-top: 5em;
+		transition: all 200ms;
+		background: $color-set-4;
+		padding: 1em 0;
 		color: $white;
 
 		&:hover {
-			color: $color-set-3;
+			background: $color-set-1;
 		}
 	}
 
 	.site-info-network {
 		position: absolute;
-		top: 0;
+		top: .7em;
 		left: 1.125em;
+		transition: all 200ms;
 		background: url('//2015.la.wordcamp.org/files/2015/05/header-ribbon.png') 50% 0 no-repeat;
 		cursor: pointer;
 		padding: 7px 10px 0;
 		width: 95px;
 		height: 78px;
 		text-decoration: none;
-		color: $color-set-5;
+		color: $color-set-1;
 		font-size: .75em;
 		box-sizing: border-box;
 
 		&:hover {
-			color: $color-set-4-2;
+			color: $color-set-4;
 		}
 	}
 }

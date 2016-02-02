@@ -1,8 +1,9 @@
 // Basics
 body {
 	position: relative;
-	background: $color-set-1-3;
-	background-image: url('//2015.la.wordcamp.org/files/2015/05/otis-redding.png');
+	background: $color-set-3-2;
+	background-image: url('//2016.porto.wordcamp.org/files/2016/02/d42ba32b.png');
+	background-size: 250px;
 	color: $color-set-1;
 }
 
@@ -13,10 +14,10 @@ img {
 
 a {
 	text-decoration: none;
-	color: $color-set-2-1;
+	color: $color-set-1-1;
 
 	&:hover {
-		color: $color-set-4-2;
+		color: $color-set-4;
 	}
 }
 

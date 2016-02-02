@@ -112,8 +112,9 @@ img.size-full {
 ----------------------------------------------- */
 #main {
 	margin: 3.375em auto 2.25em;
-	background: url('//2015.la.wordcamp.org/files/2015/05/logo-prefooter.png') 50% 100% no-repeat;
-	padding-bottom: 8em;
+	background: url('//2016.porto.wordcamp.org/files/2016/02/logo-500.png') 50% 100% no-repeat;
+	background-size: 200px 250px;
+	padding-bottom: 20em;
 	max-width: $max-width;
 
 	@media only screen and (min-width: $size-l) {
@@ -146,10 +147,10 @@ article {
 		border-radius: 2px;
 		box-shadow: 0 0 12px transparentize($color-set-1-1, .9);
 		background-color: $white;
-		background-image: url('//2015.la.wordcamp.org/files/2015/05/divider-post.png'),
-						  url('//2015.la.wordcamp.org/files/2015/05/divider-post-after.png');
+		background-image: url('//2016.porto.wordcamp.org/files/2016/02/post-header.jpg');
 		background-repeat: no-repeat, no-repeat;
 		background-position: 0 0, 50% 100%;
+		background-size: contain;
 		padding: 2.5em;
 		padding-top: 10em;
 		padding-bottom: 123px;
@@ -167,18 +168,19 @@ article {
 	font-size: 2.5em;
 
 	a {
+		transition: all 300ms;
 		text-decoration: none;
 		color: inherit;
 
 		&:hover {
-			color: $color-set-2-1;
+			color: $color-set-1-1;
 		}
 	}
 
 	+ .entry-meta {
 		color: $color-set-1-2;
-		font-family: $font-hightlight;
-		font-size: 1.5em;
+		font-size: .875em;
+		font-weight: 300;
 
 		a {
 			transition: color 300ms;
@@ -195,8 +197,8 @@ article {
 .entry-content {
 	> p:first-of-type {
 		margin-bottom: 1.125em;
-		font-family: $font-hightlight;
 		font-size: 1.125em;
+		font-weight: 700;
 	}
 
 	blockquote {
@@ -256,10 +258,10 @@ article {
 	a {
 		transition: color 300ms;
 		text-decoration: none;
-		color: $color-set-4-2;
+		color: $color-set-4;
 
 		&:hover {
-			color: $color-set-2;
+			color: $color-set-1-1;
 		}
 	}
 
@@ -272,8 +274,8 @@ article {
 	}
 
 	blockquote {
-		border-top: 1px solid $color-set-6;
-		border-bottom: 1px solid $color-set-6;
+		border-top: 1px solid $color-set-4;
+		border-bottom: 1px solid $color-set-4;
 		padding: 1em;
 		font-family: $font-hightlight;
 
@@ -306,7 +308,7 @@ article {
 
 		span {
 			padding-left: .25em;
-			color: $color-set-4-2;
+			color: $color-set-4;
 			font-size: .75em;
 		}
 	}

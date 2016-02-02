@@ -26,7 +26,7 @@
 		}
 
 		&:nth-child(1) img {
-			border-top: 5px solid $color-set-2-1;
+			border-top: 5px solid $color-set-1-1;
 		}
 
 		&:nth-child(2) img {
@@ -34,7 +34,7 @@
 		}
 
 		&:nth-child(3) img {
-			border-top: 5px solid $color-set-4-2;
+			border-top: 5px solid $color-set-4;
 		}
 
 		&:nth-child(4) img {
@@ -70,7 +70,8 @@
 #primary-sidebar {
 	.widget {
 		margin: 0 0 2.5em;
-		background: url('//2015.la.wordcamp.org/files/2015/05/divider-widget.png') 50% 100% no-repeat;
+		background: url('//2016.porto.wordcamp.org/files/2016/02/divider-widget.png') 50% 100% no-repeat;
+		background-size: 50px;
 		padding-bottom: 3.75em;
 	}
 
@@ -91,7 +92,7 @@
 	}
 
 	input[type='submit'] {
-		display: inline-block;
+		display: block;
 	}
 
 	#subscribe-submit {
@@ -110,6 +111,12 @@
 }
 
 .widget {
+
+	h4 {
+		font-family: $font-basic;
+		font-weight: 700;
+	}
+
 	p {
 		margin: 0 0 1em;
 		line-height: 1.5;
@@ -134,10 +141,10 @@
 		a {
 			transition: color 300ms;
 			text-decoration: none;
-			color: $color-set-2-1;
+			color: $color-set-1-1;
 
 			&:hover {
-				color: $color-set-4-2;
+				color: $color-set-4;
 			}
 		}
 	}

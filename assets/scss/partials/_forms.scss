@@ -1,19 +1,20 @@
 // forms
 input[type='submit'] {
 	transition: all 300ms;
+	margin: 1em auto;
 	border: 0 none;
 	border-radius: .25em;
-	background: $color-set-2-1;
+	background: $color-set-1;
 	cursor: pointer;
 	padding: .5em 1em;
 	text-transform: uppercase;
-	color: $color-set-2-2;
+	color: $color-set-1-3;
 	font-size: 1.125em;
 	font-weight: 700;
 }
 
 input[type='submit']:hover {
-	background: $color-set-4-2;
+	background: $color-set-4;
 	color: $white;
 }
 
@@ -70,7 +71,7 @@ input[type='submit']:hover {
 
 		.avatar {
 			float: right;
-			border: 3px solid $color-set-4-2;
+			border: 3px solid $color-set-4;
 			border-radius: 100%;
 		}
 	}
@@ -100,16 +101,16 @@ input[type='submit']:hover {
 	transition: all 300ms;
 	border: 0 none;
 	border-radius: 4px;
-	background: $color-set-2-1;
+	background: $color-set-1;
 	cursor: pointer;
 	padding: .5em .75em;
 	text-transform: uppercase;
-	color: $color-set-2-2;
+	color: $color-set-1-3;
 	font-size: .75em;
 	font-weight: 700;
 
 	&:hover {
-		background: $color-set-4-2;
+		background: $color-set-4;
 		color: $white;
 	}
 }
