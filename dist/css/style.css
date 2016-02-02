@@ -543,6 +543,9 @@ footer .entry-meta {
     .site-info .site-info-network:hover {
       color: #ff6d63; }
 
+.footer-widgets-block {
+  font-size: .75em; }
+
 /* =Content
 ----------------------------------------------- */
 .hentry {
