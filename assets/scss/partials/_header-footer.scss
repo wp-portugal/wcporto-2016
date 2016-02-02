@@ -138,16 +138,16 @@
 				}
 			}
 
-			.menu-item-has-children {
+			&.menu-item-has-children {
 				position: relative;
 
 				> a {
-					padding-right: 1em;
+					padding-right: 2em;
 
 					&:after {
 						position: absolute;
 						top: 50%;
-						right: .2963em;
+						right: 1em;
 						margin-top: -2px;
 						border: 4px solid transparent;
 						border-top-color: $color-set-1;
