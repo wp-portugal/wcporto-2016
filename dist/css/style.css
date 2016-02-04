@@ -357,7 +357,11 @@ h2 {
       height: 250px; } }
 
 .site-description {
-  display: none; }
+  margin: 0;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 3em;
+  font-weight: 100; }
 
 /* =Menu
 ----------------------------------------------- */
