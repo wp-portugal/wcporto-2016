@@ -332,37 +332,45 @@ h2 {
   .site-header img {
     max-width: 80%; }
 
-.site-title a {
-  display: block;
-  transition: all 200ms;
-  opacity: .95;
-  margin: 0 auto;
-  background: url("//2016.porto.wordcamp.org/files/2016/02/lettring-logo.png");
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  width: 225px;
-  height: 125px;
-  overflow: hidden;
-  text-indent: 100%;
-  white-space: nowrap; }
+.site-title {
+  margin: 3em 0 .5em; }
+  .site-title a {
+    display: block;
+    transition: all 200ms;
+    opacity: .95;
+    margin: 0 auto;
+    background: url("//2016.porto.wordcamp.org/files/2016/02/lettring-logo.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 225px;
+    height: 125px;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap; }
+    @media only screen and (min-width: 768px) {
+      .site-title a {
+        width: 440px;
+        height: 208px; }
+        .site-title a:hover {
+          opacity: .8; } }
+    @media only screen and (min-width: 1024px) {
+      .site-title a {
+        width: 550px;
+        height: 250px; } }
   @media only screen and (min-width: 768px) {
-    .site-title a {
-      width: 440px;
-      height: 208px; }
-      .site-title a:hover {
-        opacity: .8; } }
-  @media only screen and (min-width: 1024px) {
-    .site-title a {
-      width: 550px;
-      height: 250px; } }
+    .site-title {
+      margin: .5em 0; } }
 
 .site-description {
   margin: 0;
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.75);
   color: #fff;
   font-family: "Roboto", sans-serif;
-  font-size: 3em;
+  font-size: 1.5em;
   font-weight: 100; }
+  @media only screen and (min-width: 768px) {
+    .site-description {
+      font-style: 3em; } }
 
 /* =Menu
 ----------------------------------------------- */
@@ -654,7 +662,7 @@ img.size-full {
 /* =Body
 ----------------------------------------------- */
 #primary {
-  padding: 0 1em;
+  padding: 0;
   box-sizing: border-box; }
   @media only screen and (min-width: 1024px) {
     #primary {
@@ -670,9 +678,10 @@ article.post, article.page {
   background-repeat: no-repeat, no-repeat;
   background-position: 0 0, 50% 100%;
   background-size: contain;
-  padding: 2.5em;
-  padding-top: 10em;
-  padding-bottom: 123px; }
+  padding: 5em 1.5em 1.5em; }
+  @media only screen and (min-width: 768px) {
+    article.post, article.page {
+      padding: 10em 2.5em 2.5em; } }
 
 .entry-header {
   margin-bottom: 1.5em; }
@@ -778,7 +787,7 @@ article.post, article.page {
 .comment-content blockquote {
   border-top: 1px solid #ff6d63;
   border-bottom: 1px solid #ff6d63;
-  padding: 1em;
+  padding: 1em 0;
   font-family: "Lobster", serif; }
   .entry-content blockquote p:last-child,
   .comment-content blockquote p:last-child {
@@ -851,7 +860,6 @@ article.post, article.page {
   #after-header-widgets .widget {
     float: left;
     margin: 0 auto 1em;
-    width: 50%;
     box-sizing: border-box; }
     @media only screen and (min-width: 768px) {
       #after-header-widgets .widget {

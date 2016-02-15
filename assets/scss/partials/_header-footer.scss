@@ -20,32 +20,40 @@
 	}
 }
 
-.site-title a {
-	display: block;
-	transition: all 200ms;
-	opacity: .95;
-	margin: 0 auto;
-	background: url('//2016.porto.wordcamp.org/files/2016/02/lettring-logo.png');
-	background-repeat: no-repeat;
-	background-size: 100% auto;
-	width: 225px;
-	height: 125px;
-	overflow: hidden;
-	text-indent: 100%;
-	white-space: nowrap;
+.site-title {
+	margin: 3em 0 .5em;
 
-	@media only screen and (min-width: $size-m) {
-		width: 440px;
-		height: 208px;
+	a {
+		display: block;
+		transition: all 200ms;
+		opacity: .95;
+		margin: 0 auto;
+		background: url('//2016.porto.wordcamp.org/files/2016/02/lettring-logo.png');
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		width: 225px;
+		height: 125px;
+		overflow: hidden;
+		text-indent: 100%;
+		white-space: nowrap;
 
-		&:hover {
-			opacity: .8;
+		@media only screen and (min-width: $size-m) {
+			width: 440px;
+			height: 208px;
+
+			&:hover {
+				opacity: .8;
+			}
+		}
+
+		@media only screen and (min-width: $size-l) {
+			width: 550px;
+			height: 250px;
 		}
 	}
 
-	@media only screen and (min-width: $size-l) {
-		width: 550px;
-		height: 250px;
+	@media only screen and (min-width: $size-m) {
+		margin: .5em 0;
 	}
 }
 
@@ -54,8 +62,12 @@
 	text-shadow: 3px 3px 5px rgba($black, .75);
 	color: $white;
 	font-family: $font-basic;
-	font-size: 3em;
+	font-size: 1.5em;
 	font-weight: 100;
+
+	@media only screen and (min-width: $size-m) {
+		font-style: 3em;
+	}
 }
 
 /* =Menu
