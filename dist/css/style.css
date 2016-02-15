@@ -478,7 +478,7 @@ h2 {
     .main-small-navigation .sub-menu li {
       list-style-type: square; }
     .main-small-navigation .sub-menu a {
-      border-bottom: 1px solid #e5cdb7;
+      border-top: 1px solid #e5cdb7;
       padding: .75em 1.5em .75em 0; }
   .main-small-navigation .menu-toggle {
     display: block;
@@ -492,7 +492,7 @@ h2 {
     text-align: left; }
   .main-small-navigation a {
     display: block;
-    border-bottom: 1px solid #ff6d63;
+    border-top: 1px solid #ff6d63;
     padding: .75em 1.5em; }
 
 .menu-toggle {
