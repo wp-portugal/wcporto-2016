@@ -195,22 +195,21 @@
 			background-color: $color-set-4;
 		}
 	}
+}
 
-	.wcb_widget_sponsors {
-		.sponsor-logo {
-			margin: 1em 0;
-			border-left: 3px solid;
-			text-align: center;
+.wcb_widget_sponsors {
+	.sponsor-logo {
+		margin: 1em 0;
+		border-left: 3px solid;
+		text-align: center;
 
-			img {
-				width: auto;
-				max-width: 90%;
-				max-height: 5em;
-			}
+		img {
+			width: auto;
+			max-width: 90% !important;
+			max-height: 5em;
 		}
 	}
 }
-
 
 #footer-widgets {
 	margin: 0 auto;
