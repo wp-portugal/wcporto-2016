@@ -151,8 +151,11 @@
 .widget {
 
 	h4 {
+		background-color: $color-set-1;
+		padding: 1em;
+		color: $white;
 		font-family: $font-basic;
-		font-weight: 700;
+		font-weight: 300;
 	}
 
 	p {
@@ -184,6 +187,29 @@
 			&:hover {
 				color: $color-set-4;
 			}
+		}
+	}
+
+	.porto-edicao-especial {
+
+		h4 {
+			color: $color-set-4;
+		}
+	}
+}
+
+
+.wcb_widget_sponsors {
+
+	.sponsor-logo {
+		margin: 1em 0;
+		border-left: 3px solid;
+		text-align: center;
+
+		img {
+			width: auto;
+			max-width: 90%;
+			max-height: 5em;
 		}
 	}
 }

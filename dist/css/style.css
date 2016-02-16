@@ -944,8 +944,11 @@ article.post, article.page {
       width: 30%; } }
 
 .widget h4 {
+  background-color: #24648E;
+  padding: 1em;
+  color: #fff;
   font-family: "Roboto", sans-serif;
-  font-weight: 700; }
+  font-weight: 300; }
 
 .widget p {
   margin: 0 0 1em;
@@ -971,6 +974,18 @@ article.post, article.page {
     color: #489ad0; }
     .widget li a:hover {
       color: #ff6d63; }
+
+.widget .porto-edicao-especial h4 {
+  color: #ff6d63; }
+
+.wcb_widget_sponsors .sponsor-logo {
+  margin: 1em 0;
+  border-left: 3px solid;
+  text-align: center; }
+  .wcb_widget_sponsors .sponsor-logo img {
+    width: auto;
+    max-width: 90%;
+    max-height: 5em; }
 
 #footer-widgets {
   margin: 0 auto;
