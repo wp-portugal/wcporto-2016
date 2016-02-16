@@ -1,10 +1,13 @@
 // Basics
 body {
-	position: relative;
 	background: $color-set-3-2;
 	background-image: url('//2016.porto.wordcamp.org/files/2016/02/d42ba32b.png');
 	background-size: 250px;
 	color: $color-set-1;
+}
+
+#page {
+	position: relative;
 }
 
 img {

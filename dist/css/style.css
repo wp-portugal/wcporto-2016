@@ -289,11 +289,13 @@ input::-moz-focus-inner {
 /* =Fonts
 ----------------------------------------------- */
 body {
-  position: relative;
   background: #f9f4ef;
   background-image: url("//2016.porto.wordcamp.org/files/2016/02/d42ba32b.png");
   background-size: 250px;
   color: #24648E; }
+
+#page {
+  position: relative; }
 
 img {
   max-width: 100%;
@@ -320,8 +322,7 @@ h2 {
 /* =Header
 ----------------------------------------------- */
 .site-header {
-  position: relative;
-  margin-bottom: 7.75em;
+  margin-bottom: 7.5em;
   border-top: 0.5em solid #489ad0;
   box-shadow: inset 0 10px 60px rgba(72, 154, 208, 0.5);
   background: #489ad0 url("//2016.porto.wordcamp.org/files/2016/02/24565032872_d5502119fc_o.jpg") 50% 100% no-repeat;
@@ -331,6 +332,9 @@ h2 {
     padding: 5% 0; }
   .site-header img {
     max-width: 80%; }
+  @media only screen and (min-width: 768px) {
+    .site-header {
+      margin-bottom: 0; } }
 
 .site-title {
   margin: 3em 0 .5em; }
@@ -381,12 +385,8 @@ h2 {
   max-width: 960px !important; }
 
 .main-navigation {
-  display: block;
-  position: absolute;
-  bottom: -5em;
-  left: 0;
   float: left;
-  clear: both;
+  margin: 1em 0;
   background: #fff;
   width: 100%;
   text-align: left; }
@@ -394,6 +394,7 @@ h2 {
     margin: 0 auto;
     padding: 0 1em;
     max-width: 90%;
+    overflow: hidden;
     list-style: none; }
     .main-navigation ul ul {
       display: none;
@@ -469,6 +470,7 @@ h2 {
 ----------------------------------------------- */
 .main-small-navigation {
   position: absolute;
+  margin-top: 1em;
   background: rgba(255, 255, 255, 0.95);
   width: 100%; }
   .main-small-navigation .menu {

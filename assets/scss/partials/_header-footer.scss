@@ -3,8 +3,7 @@
 /* =Header
 ----------------------------------------------- */
 .site-header {
-	position: relative;
-	margin-bottom: 7.75em;
+	margin-bottom: 7.5em;
 	border-top: .5em solid $color-set-1-1;
 	box-shadow: inset 0 10px 60px transparentize($color-set-1-1, .5);
 	background: $color-set-1-1 url('//2016.porto.wordcamp.org/files/2016/02/24565032872_d5502119fc_o.jpg') 50% 100% no-repeat;
@@ -17,6 +16,10 @@
 
 	img {
 		max-width: 80%;
+	}
+
+	@media only screen and (min-width: $size-m) {
+		margin-bottom: 0;
 	}
 }
 
@@ -80,12 +83,8 @@
 }
 
 .main-navigation {
-	display: block;
-	position: absolute;
-	bottom: -5em;
-	left: 0;
 	float: left;
-	clear: both;
+	margin: 1em 0;
 	background: $white;
 	width: 100%;
 	text-align: left;
@@ -94,6 +93,7 @@
 		margin: 0 auto;
 		padding: 0 1em;
 		max-width: $max-width;
+		overflow: hidden;
 		list-style: none;
 
 		ul {
@@ -213,6 +213,7 @@
 ----------------------------------------------- */
 .main-small-navigation {
 	position: absolute;
+	margin-top: 1em;
 	background: transparentize($white, .05);
 	width: 100%;
 
