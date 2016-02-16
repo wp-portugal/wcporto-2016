@@ -846,6 +846,12 @@ article.post, article.page {
 
 /* =Sponsors
 ----------------------------------------------- */
+.wcorg-sponsors h3 {
+  display: none; }
+
+.wcorg-sponsor + .wcorg-sponsor {
+  margin-top: 5em; }
+
 .wcorg-sponsor-description img {
   display: block;
   margin: auto;
