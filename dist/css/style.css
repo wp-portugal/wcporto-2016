@@ -461,7 +461,7 @@ h2 {
     .main-navigation li:hover > ul {
       display: block; }
     .main-navigation li.current-menu-item > a, .main-navigation li.current_page_item > a, .main-navigation li.current_page_ancestor > a, .main-navigation li.current-menu-parent > a {
-      color: #489ad0; }
+      color: #ff6d63; }
   .main-navigation a {
     display: block;
     text-decoration: none; }
