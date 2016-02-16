@@ -153,6 +153,7 @@
 	h4 {
 		background-color: $color-set-1;
 		padding: 1em;
+		text-transform: uppercase;
 		color: $white;
 		font-family: $font-basic;
 		font-weight: 300;
@@ -161,6 +162,18 @@
 	p {
 		margin: 0 0 1em;
 		line-height: 1.5;
+	}
+
+	.sponsor-logo {
+		margin: 1em 0;
+		border-left: 3px solid;
+		text-align: center;
+
+		img {
+			width: auto;
+			max-width: 90% !important;
+			max-height: 5em;
+		}
 	}
 
 	.widget-title {
@@ -193,20 +206,6 @@
 	.porto-edicao-especial {
 		h4 {
 			background-color: $color-set-4;
-		}
-	}
-}
-
-.wcb_widget_sponsors {
-	.sponsor-logo {
-		margin: 1em 0;
-		border-left: 3px solid;
-		text-align: center;
-
-		img {
-			width: auto;
-			max-width: 90% !important;
-			max-height: 5em;
 		}
 	}
 }
