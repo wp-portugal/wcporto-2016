@@ -976,13 +976,13 @@ article.post, article.page {
       color: #ff6d63; }
 
 .widget .porto-edicao-especial h4 {
-  color: #ff6d63; }
+  background-color: #ff6d63; }
 
-.wcb_widget_sponsors .sponsor-logo {
+.widget .wcb_widget_sponsors .sponsor-logo {
   margin: 1em 0;
   border-left: 3px solid;
   text-align: center; }
-  .wcb_widget_sponsors .sponsor-logo img {
+  .widget .wcb_widget_sponsors .sponsor-logo img {
     width: auto;
     max-width: 90%;
     max-height: 5em; }
