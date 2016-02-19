@@ -171,8 +171,6 @@
 
 		img {
 			width: auto;
-			max-width: 90% !important;
-			max-height: 5em;
 		}
 	}
 
@@ -206,6 +204,39 @@
 	.porto-edicao-especial {
 		h4 {
 			background-color: $color-set-4;
+		}
+
+		img {
+			max-width: 90% !important;
+			max-height: 5em;
+		}
+	}
+
+	.porto-vintage {
+		img {
+			max-width: 80% !important;
+			max-height: 4.5em;
+		}
+	}
+
+	.porto-late-bottled-vintage {
+		img {
+			max-width: 70% !important;
+			max-height: 4em;
+		}
+	}
+
+	.porto-reserva {
+		img {
+			max-width: 60% !important;
+			max-height: 3.5em;
+		}
+	}
+
+	.porto-tawny {
+		img {
+			max-width: 50% !important;
+			max-height: 3em;
 		}
 	}
 }
