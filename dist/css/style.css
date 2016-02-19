@@ -848,6 +848,9 @@ article.post, article.page {
 
 /* =Sponsors
 ----------------------------------------------- */
+.wcorg-sponsors h3 {
+  display: none; }
+
 .wcorg-sponsors .wcorg-sponsor-level-porto-edicao-especial img {
   max-width: 15em;
   max-height: 7em; }
@@ -874,7 +877,8 @@ article.post, article.page {
 .wcorg-sponsor-description img {
   display: block;
   margin: auto;
-  padding: 1em 0 2em; }
+  padding: 1em 0 2em;
+  font-size: 2.25em; }
 
 /* =Media Stream
 ----------------------------------------------- */
