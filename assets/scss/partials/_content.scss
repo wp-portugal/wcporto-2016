@@ -351,7 +351,42 @@ article {
 ----------------------------------------------- */
 .wcorg-sponsors {
 	h3 {
-		display: none;
+		// display: none;
+	}
+
+	.wcorg-sponsor-level-porto-edicao-especial {
+		img {
+			max-width: 15em;
+			max-height: 7em;
+		}
+	}
+
+	.wcorg-sponsor-level-porto-vintage {
+		img {
+			max-width: 12.5em;
+			max-height: 6em;
+		}
+	}
+
+	.wcorg-sponsor-level-porto-late-bottled-vintage {
+		img {
+			max-width: 10em;
+			max-height: 5em;
+		}
+	}
+
+	.wcorg-sponsor-level-porto-reserva {
+		img {
+			max-width: 7.5em;
+			max-height: 4em;
+		}
+	}
+
+	.wcorg-sponsor-level-porto-tawny {
+		img {
+			max-width: 5em;
+			max-height: 3em;
+		}
 	}
 }
 
@@ -366,8 +401,6 @@ article {
 		display: block;
 		margin: auto;
 		padding: 1em 0 2em;
-		max-width: 15em;
-		max-height: 7em;
 	}
 }
 
