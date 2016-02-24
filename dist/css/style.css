@@ -888,6 +888,9 @@ article.post, article.page {
 #tix-attendees .tix-field {
   margin: 0 1em 0 4.5em; }
 
+#tix-attendees ul {
+  padding: 0; }
+
 #tix-attendees li {
   margin-bottom: 2em;
   height: auto; }
