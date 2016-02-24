@@ -405,6 +405,49 @@ article {
 	}
 }
 
+/* =Attendees
+----------------------------------------------- */
+#tix-attendees {
+	.avatar {
+		background-color: transparentize($black, .95);
+	}
+
+	.tix-field {
+		margin: 0 1em 0 4.5em;
+	}
+
+	li {
+		margin-bottom: 2em;
+		height: auto;
+	}
+
+	.tix-columns-3 {
+		li {
+			width: 100%;
+
+			@media only screen and (min-width: 550px) {
+				width: 50%;
+
+				&:nth-child(2n+1) {
+					clear: left;
+				}
+			}
+
+			@media only screen and (min-width: 768px) {
+				width: calc(100% / 3);
+
+				&:nth-child(2n+1) {
+					clear: none;
+				}
+
+				&:nth-child(3n+1) {
+					clear: left;
+				}
+			}
+		}
+	}
+}
+
 /* =Media Stream
 ----------------------------------------------- */
 #tggr-media-item-container.three-column .tggr-media-item {

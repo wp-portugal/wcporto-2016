@@ -880,6 +880,33 @@ article.post, article.page {
   padding: 1em 0 2em;
   font-size: 2.25em; }
 
+/* =Attendees
+----------------------------------------------- */
+#tix-attendees .avatar {
+  background-color: rgba(0, 0, 0, 0.05); }
+
+#tix-attendees .tix-field {
+  margin: 0 1em 0 4.5em; }
+
+#tix-attendees li {
+  margin-bottom: 2em;
+  height: auto; }
+
+#tix-attendees .tix-columns-3 li {
+  width: 100%; }
+  @media only screen and (min-width: 550px) {
+    #tix-attendees .tix-columns-3 li {
+      width: 50%; }
+      #tix-attendees .tix-columns-3 li:nth-child(2n+1) {
+        clear: left; } }
+  @media only screen and (min-width: 768px) {
+    #tix-attendees .tix-columns-3 li {
+      width: calc(100% / 3); }
+      #tix-attendees .tix-columns-3 li:nth-child(2n+1) {
+        clear: none; }
+      #tix-attendees .tix-columns-3 li:nth-child(3n+1) {
+        clear: left; } }
+
 /* =Media Stream
 ----------------------------------------------- */
 #tggr-media-item-container.three-column .tggr-media-item {
