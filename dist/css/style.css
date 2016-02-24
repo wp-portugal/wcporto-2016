@@ -969,7 +969,6 @@ article.post, article.page {
     display: block;
     transition: all 300ms;
     margin: 0 auto;
-    border-radius: 2px;
     box-shadow: 0 0 12px rgba(72, 154, 208, 0.1);
     cursor: pointer; }
   #after-header-widgets .textwidget p:last-child {
