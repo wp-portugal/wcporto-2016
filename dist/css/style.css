@@ -1099,6 +1099,9 @@ article.post, article.page {
       clear: both;
       margin-top: 1em; } }
 
+textarea {
+  max-width: 100%; }
+
 input[type='submit'] {
   transition: all 300ms;
   margin: 1em auto;

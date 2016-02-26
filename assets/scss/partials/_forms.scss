@@ -1,4 +1,9 @@
 // forms
+
+textarea{
+	max-width: 100%;
+}
+
 input[type='submit'] {
 	transition: all 300ms;
 	margin: 1em auto;
