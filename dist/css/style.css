@@ -882,9 +882,6 @@ article.post, article.page {
 
 /* =Attendees
 ----------------------------------------------- */
-#tix-attendees .avatar {
-  background-color: rgba(0, 0, 0, 0.05); }
-
 #tix-attendees .tix-field {
   margin: 0 1em 0 4.5em; }
 
