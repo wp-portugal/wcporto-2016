@@ -93,7 +93,6 @@
 		margin: 0 auto;
 		padding: 0 1em;
 		max-width: $max-width;
-		overflow: hidden;
 		list-style: none;
 
 		ul {
@@ -152,6 +151,10 @@
 
 				&:hover {
 					color: $color-set-4;
+
+					+ .sub-menu {
+						display: block;
+					}
 				}
 			}
 

@@ -394,7 +394,6 @@ h2 {
     margin: 0 auto;
     padding: 0 1em;
     max-width: 90%;
-    overflow: hidden;
     list-style: none; }
     .main-navigation ul ul {
       display: none;
@@ -436,6 +435,8 @@ h2 {
           content: '|'; }
         .main-navigation ul > li a:hover {
           color: #ff6d63; }
+          .main-navigation ul > li a:hover + .sub-menu {
+            display: block; }
       .main-navigation ul > li.menu-item-has-children {
         position: relative; }
         .main-navigation ul > li.menu-item-has-children > a {
