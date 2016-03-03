@@ -303,7 +303,7 @@ img {
 
 a {
   text-decoration: none;
-  color: #489ad0; }
+  color: #338fcb; }
   a:hover {
     color: #ff6d63; }
 
@@ -323,9 +323,9 @@ h2 {
 ----------------------------------------------- */
 .site-header {
   margin-bottom: 7.5em;
-  border-top: 0.5em solid #489ad0;
-  box-shadow: inset 0 10px 60px rgba(72, 154, 208, 0.5);
-  background: #489ad0 url("//2016.porto.wordcamp.org/files/2016/02/24565032872_d5502119fc_o.jpg") 50% 100% no-repeat;
+  border-top: 0.5em solid #338fcb;
+  box-shadow: inset 0 10px 60px rgba(51, 143, 203, 0.5);
+  background: #338fcb url("//2016.porto.wordcamp.org/files/2016/02/24565032872_d5502119fc_o.jpg") 50% 100% no-repeat;
   background-size: cover;
   text-align: center; }
   .site-header hgroup {
@@ -431,7 +431,7 @@ h2 {
         color: #24648E; }
         .main-navigation ul > li a:before {
           margin-right: .75em;
-          color: #eaf4fa;
+          color: #add2ea;
           content: '|'; }
         .main-navigation ul > li a:hover {
           color: #ff6d63; }
@@ -513,7 +513,7 @@ h2 {
     content: ''; }
   .post-navigation .nav-previous a,
   .post-navigation .nav-next a {
-    color: #489ad0; }
+    color: #338fcb; }
     .post-navigation .nav-previous a:hover,
     .post-navigation .nav-next a:hover {
       color: #ff6d63; }
@@ -530,7 +530,7 @@ footer .entry-meta {
   border-bottom: 1px solid white;
   padding: .5em 0;
   line-height: 1.5;
-  color: #99c7e5; }
+  color: #70b1db; }
   footer .entry-meta .sep {
     margin: 0 .25em; }
 
@@ -680,7 +680,7 @@ img.size-full {
 article.post, article.page {
   margin-bottom: 2.5em;
   border-radius: 2px;
-  box-shadow: 0 0 12px rgba(72, 154, 208, 0.1);
+  box-shadow: 0 0 12px rgba(51, 143, 203, 0.1);
   background-color: #fff;
   background-image: url("//2016.porto.wordcamp.org/files/2016/02/post-header-b.jpg");
   background-repeat: no-repeat, no-repeat;
@@ -704,9 +704,9 @@ article.post, article.page {
     text-decoration: none;
     color: inherit; }
     .entry-title a:hover {
-      color: #489ad0; }
+      color: #338fcb; }
   .entry-title + .entry-meta {
-    color: #99c7e5;
+    color: #70b1db;
     font-size: .875em;
     font-weight: 300; }
     .entry-title + .entry-meta a {
@@ -781,7 +781,7 @@ article.post, article.page {
   color: #ff6d63; }
   .entry-content a:hover,
   .comment-content a:hover {
-    color: #489ad0; }
+    color: #338fcb; }
 
 .entry-content strong,
 .comment-content strong {
@@ -832,9 +832,9 @@ article.post, article.page {
 /* =Organizers
 ----------------------------------------------- */
 .wcorg-organizer {
-  border-bottom: 1px solid #eaf4fa; }
+  border-bottom: 1px solid #add2ea; }
   .wcorg-organizer:first-child {
-    border-top: 1px solid #eaf4fa; }
+    border-top: 1px solid #add2ea; }
   .wcorg-organizer .wcorg-organizer-description:after {
     display: table;
     clear: both;
@@ -932,7 +932,7 @@ article.post, article.page {
     box-sizing: border-box; }
     @media only screen and (min-width: 768px) {
       #after-header-widgets .widget {
-        width: calc(100% / 3); } }
+        width: calc(100% / 4); } }
     #after-header-widgets .widget a {
       display: block;
       transition: all 200ms;
@@ -949,15 +949,15 @@ article.post, article.page {
       #after-header-widgets .widget:nth-child(1) a:hover {
         background-color: #ff6d63; }
     #after-header-widgets .widget:nth-child(2) a {
-      background-color: #489ad0; }
+      background-color: #338fcb; }
       #after-header-widgets .widget:nth-child(2) a:hover {
         background-color: #ff6d63; }
     #after-header-widgets .widget:nth-child(3) a {
-      background-color: #99c7e5; }
+      background-color: #70b1db; }
       #after-header-widgets .widget:nth-child(3) a:hover {
         background-color: #ff6d63; }
     #after-header-widgets .widget:nth-child(4) a {
-      background-color: #eaf4fa; }
+      background-color: #add2ea; }
       #after-header-widgets .widget:nth-child(4) a:hover {
         background-color: #ff6d63; }
   #after-header-widgets .textwidget h4 {
@@ -967,7 +967,7 @@ article.post, article.page {
     display: block;
     transition: all 300ms;
     margin: 0 auto;
-    box-shadow: 0 0 12px rgba(72, 154, 208, 0.1);
+    box-shadow: 0 0 12px rgba(51, 143, 203, 0.1);
     cursor: pointer; }
   #after-header-widgets .textwidget p:last-child {
     margin-bottom: 0; }
@@ -1027,7 +1027,7 @@ article.post, article.page {
 
 .widget .widget-title {
   margin: 0 0 .75em;
-  border-bottom: 1px solid #99c7e5;
+  border-bottom: 1px solid #70b1db;
   padding: 0 0 .75em;
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
@@ -1036,13 +1036,13 @@ article.post, article.page {
 
 .widget li {
   margin: 0 0 .5em;
-  border-bottom: 1px solid #99c7e5;
+  border-bottom: 1px solid #70b1db;
   padding-bottom: .5em;
   line-height: 1.5; }
   .widget li a {
     transition: color 300ms;
     text-decoration: none;
-    color: #489ad0; }
+    color: #338fcb; }
     .widget li a:hover {
       color: #ff6d63; }
 
@@ -1109,7 +1109,7 @@ input[type='submit'] {
   cursor: pointer;
   padding: .5em 1em;
   text-transform: uppercase;
-  color: #eaf4fa;
+  color: #fff;
   font-size: 1.125em;
   font-weight: 700; }
 
@@ -1129,9 +1129,9 @@ input[type='submit']:hover {
 .comment-content input[type='email'],
 .comment-content textarea {
   transition: all 300ms;
-  border: 1px solid #eaf4fa;
+  border: 1px solid #add2ea;
   border-radius: 4px;
-  background: white;
+  background: #eaf4fa;
   padding: .5em;
   width: 100%;
   box-sizing: border-box; }
@@ -1154,7 +1154,7 @@ input[type='submit']:hover {
   margin-bottom: 1.75em;
   border-top: 10px solid #e5cdb7;
   border-radius: 2px;
-  box-shadow: 0 0 12px rgba(72, 154, 208, 0.1);
+  box-shadow: 0 0 12px rgba(51, 143, 203, 0.1);
   background: #fff;
   padding: 2.5em; }
   .comments-area .comments-title {
@@ -1191,7 +1191,7 @@ input[type='submit']:hover {
   cursor: pointer;
   padding: .5em .75em;
   text-transform: uppercase;
-  color: #eaf4fa;
+  color: #add2ea;
   font-size: .75em;
   font-weight: 700; }
   .comment-reply-link:hover {
