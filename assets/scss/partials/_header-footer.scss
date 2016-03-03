@@ -89,7 +89,7 @@
 	width: 100%;
 	text-align: left;
 
-	ul {
+	.menu {
 		margin: 0 auto;
 		padding: 0 1em;
 		max-width: $max-width;
@@ -135,6 +135,15 @@
 				content: '';
 			}
 
+			> a {
+
+				&:before {
+					margin-right: .75em;
+					color: $color-set-1-3;
+					content: '|';
+				}
+			}
+
 			a {
 				display: block;
 				transition: color 300ms;
@@ -142,12 +151,6 @@
 				text-transform: uppercase;
 				text-decoration: none;
 				color: $color-set-1;
-
-				&:before {
-					margin-right: .75em;
-					color: $color-set-1-3;
-					content: '|';
-				}
 
 				&:hover {
 					color: $color-set-4;
