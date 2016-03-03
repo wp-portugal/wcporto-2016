@@ -20,8 +20,7 @@
 		box-sizing: border-box;
 
 		@media only screen and (min-width: $size-m) {
-			// width: 25%;
-			width: calc(100% / 3);
+			width: calc(100% / 4);
 		}
 
 		a {
