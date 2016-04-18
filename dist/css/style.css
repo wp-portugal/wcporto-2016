@@ -1057,7 +1057,8 @@ article.post, article.page {
   max-width: 80% !important;
   max-height: 4.5em; }
 
-.widget .porto-late-bottled-vintage img {
+.widget .porto-late-bottled-vintage img,
+.widget .media-partner img {
   max-width: 70% !important;
   max-height: 4em; }
 
