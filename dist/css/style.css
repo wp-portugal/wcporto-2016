@@ -918,14 +918,15 @@ article.post, article.page {
 
 /* =Schedule
 ----------------------------------------------- */
-.wcpt-schedule tbody tr {
+.wcpt-schedule tbody tr:nth-of-type(odd) {
+  background: #fafafa; }
+
+.wcpt-schedule tbody td {
   padding: 1em; }
-  .wcpt-schedule tbody tr:nth-of-type(3n-2) {
+  .wcpt-schedule tbody td:nth-of-type(3n-2) {
     padding-left: 0; }
-  .wcpt-schedule tbody tr:nth-of-type(3n) {
+  .wcpt-schedule tbody td:nth-of-type(3n) {
     padding-right: 0; }
-  .wcpt-schedule tbody tr:nth-of-type(odd) {
-    background: #fafafa; }
 
 .wcpt-schedule a {
   display: block; }

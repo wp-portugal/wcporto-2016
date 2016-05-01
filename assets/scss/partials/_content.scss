@@ -461,6 +461,12 @@ article {
 ----------------------------------------------- */
 .wcpt-schedule {
 	tbody {
+		tr {
+			&:nth-of-type(odd) {
+				background: #fafafa;
+			}
+		}
+
 		td {
 			padding: 1em;
 
@@ -470,10 +476,6 @@ article {
 
 			&:nth-of-type(3n) {
 				padding-right: 0;
-			}
-
-			&:nth-of-type(odd) {
-				background: #fafafa;
 			}
 		}
 	}
