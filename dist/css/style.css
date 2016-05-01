@@ -922,11 +922,8 @@ article.post, article.page {
   background: #fafafa; }
 
 .wcpt-schedule tbody td {
-  padding: 1em; }
-  .wcpt-schedule tbody td:nth-of-type(3n-2) {
-    padding-left: 0; }
-  .wcpt-schedule tbody td:nth-of-type(3n) {
-    padding-right: 0; }
+  padding: 1em;
+  text-align: center; }
 
 .wcpt-schedule a {
   display: block; }
