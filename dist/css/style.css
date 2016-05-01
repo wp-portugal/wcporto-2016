@@ -916,6 +916,20 @@ article.post, article.page {
   left: 0 !important;
   width: calc(100% - 10px); }
 
+/* =Schedule
+----------------------------------------------- */
+.wcpt-schedule tbody tr {
+  padding: 1em; }
+  .wcpt-schedule tbody tr:nth-of-type(3n-2) {
+    padding-left: 0; }
+  .wcpt-schedule tbody tr:nth-of-type(3n) {
+    padding-right: 0; }
+  .wcpt-schedule tbody tr:nth-of-type(odd) {
+    background: #fafafa; }
+
+.wcpt-schedule a {
+  display: block; }
+
 #after-header-widgets {
   margin: 1.5em auto;
   max-width: 90%; }

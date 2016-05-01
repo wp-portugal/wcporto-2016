@@ -456,3 +456,29 @@ article {
 	left: 0 !important;
 	width: calc(100% - 10px);
 }
+
+/* =Schedule
+----------------------------------------------- */
+.wcpt-schedule {
+	tbody {
+		tr {
+			padding: 1em;
+
+			&:nth-of-type(3n-2) {
+				padding-left: 0;
+			}
+
+			&:nth-of-type(3n) {
+				padding-right: 0;
+			}
+
+			&:nth-of-type(odd) {
+				background: #fafafa;
+			}
+		}
+	}
+
+	a {
+		display: block;
+	}
+}
