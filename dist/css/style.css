@@ -864,11 +864,13 @@ article.post, article.page {
   max-width: 10em;
   max-height: 5em; }
 
-.wcorg-sponsors .wcorg-sponsor-level-porto-reserva img {
+.wcorg-sponsors .wcorg-sponsor-level-porto-reserva img,
+.wcorg-sponsors .wcorg-sponsor-level-media-partner img {
   max-width: 7.5em;
   max-height: 4em; }
 
-.wcorg-sponsors .wcorg-sponsor-level-porto-tawny img {
+.wcorg-sponsors .wcorg-sponsor-level-porto-tawny img,
+.wcorg-sponsors .wcorg-sponsor-level-after-party-partner img {
   max-width: 5em;
   max-height: 3em; }
 
