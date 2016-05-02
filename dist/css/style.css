@@ -1074,7 +1074,8 @@ article.post, article.page {
   max-width: 70% !important;
   max-height: 4em; }
 
-.widget .porto-reserva img {
+.widget .porto-reserva img,
+.widget .after-party-partner img {
   max-width: 60% !important;
   max-height: 3.5em; }
 
