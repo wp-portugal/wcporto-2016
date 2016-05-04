@@ -598,8 +598,7 @@ footer .entry-meta {
   width: 100px; }
 
 span.wcpt-session-speakers:before {
-  color: #70b1db;
-  content: 'Por: '; }
+  content: ''; }
 
 /* =Asides
 ----------------------------------------------- */
