@@ -716,6 +716,10 @@ article.post, article.page {
       .entry-title + .entry-meta a:hover {
         color: #ff6d63; }
 
+.hentry .entry-content ol,
+.hentry .entry-content ul {
+  margin: 0; }
+
 .entry-content > p:first-of-type {
   margin-bottom: 1.125em;
   font-size: 1.125em;
@@ -724,10 +728,6 @@ article.post, article.page {
 .entry-content blockquote {
   margin: 2.25em 1em;
   font-size: 1.75em; }
-
-.entry-content ol,
-.entry-content ul {
-  margin: 0; }
 
 .comment-content blockquote {
   margin: 1.5em .75em;

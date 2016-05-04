@@ -196,6 +196,15 @@ article {
 	}
 }
 
+.hentry {
+	.entry-content {
+		ol,
+		ul {
+			margin: 0;
+		}
+	}
+}
+
 .entry-content {
 	> p:first-of-type {
 		margin-bottom: 1.125em;
@@ -206,11 +215,6 @@ article {
 	blockquote {
 		margin: 2.25em 1em;
 		font-size: 1.75em;
-	}
-
-	ol,
-	ul {
-		margin: 0;
 	}
 }
 
