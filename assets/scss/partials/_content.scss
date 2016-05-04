@@ -28,18 +28,6 @@
 	margin: 0 0 1.5em;
 }
 
-.wcpt-schedule {
-	width: 100%;
-}
-
-.wcpt-col-time {
-	width: 100px;
-}
-
-span.wcpt-session-speakers:before {
-	content: '';
-}
-
 /* =Asides
 ----------------------------------------------- */
 .blog .format-aside .entry-title,
@@ -163,7 +151,7 @@ article {
 		background-repeat: no-repeat, no-repeat;
 		background-position: 0 0, 50% 100%;
 		background-size: contain;
-		padding: 5em 1.5em 1.5em;
+		padding: 5em .5em 1.5em;
 
 		@media only screen and (min-width: $size-m) {
 			padding: 10em 2.5em 2.5em;
@@ -474,6 +462,8 @@ article {
 /* =Schedule
 ----------------------------------------------- */
 .wcpt-schedule {
+	width: 100%;
+
 	tbody {
 		tr {
 			&:nth-of-type(odd) {
@@ -490,4 +480,12 @@ article {
 	a {
 		display: block;
 	}
+}
+
+.wcpt-col-time {
+	width: 100px;
+}
+
+span.wcpt-session-speakers:before {
+	content: '';
 }

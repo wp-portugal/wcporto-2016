@@ -292,7 +292,7 @@ body {
   background: #f9f4ef;
   background-image: url("//2016.porto.wordcamp.org/files/2016/02/d42ba32b.png");
   background-size: 250px;
-  color: #24648E; }
+  color: #24648e; }
 
 #page {
   position: relative; }
@@ -393,7 +393,7 @@ h2 {
   .main-navigation .menu {
     margin: 0 auto;
     padding: 0 1em;
-    max-width: 90%;
+    max-width: 95%;
     list-style: none; }
     .main-navigation .menu ul {
       display: none;
@@ -432,7 +432,7 @@ h2 {
         padding: 1.5em .5em 1.5em 0;
         text-transform: uppercase;
         text-decoration: none;
-        color: #24648E; }
+        color: #24648e; }
         .main-navigation .menu > li a:hover {
           color: #ff6d63; }
           .main-navigation .menu > li a:hover + .sub-menu {
@@ -447,7 +447,7 @@ h2 {
             right: 1em;
             margin-top: -2px;
             border: 4px solid transparent;
-            border-top-color: #24648E;
+            border-top-color: #24648e;
             width: 0;
             height: 0;
             content: ''; }
@@ -546,7 +546,7 @@ footer .entry-meta {
     padding: 1em 0;
     color: #fff; }
     .site-info .site-info-generator:hover {
-      background: #24648E; }
+      background: #24648e; }
   .site-info .site-info-network {
     position: absolute;
     top: .7em;
@@ -559,7 +559,7 @@ footer .entry-meta {
     width: 95px;
     height: 95px;
     text-decoration: none;
-    color: #24648E;
+    color: #24648e;
     font-size: .75em;
     box-sizing: border-box; }
     .site-info .site-info-network:hover {
@@ -590,15 +590,6 @@ footer .entry-meta {
 .page-links {
   clear: both;
   margin: 0 0 1.5em; }
-
-.wcpt-schedule {
-  width: 100%; }
-
-.wcpt-col-time {
-  width: 100px; }
-
-span.wcpt-session-speakers:before {
-  content: ''; }
 
 /* =Asides
 ----------------------------------------------- */
@@ -655,7 +646,7 @@ img.size-full {
   margin-bottom: 1.5em; }
   #content .gallery a img {
     border: 0;
-    max-width: 90%;
+    max-width: 95%;
     height: auto; }
   #content .gallery dd {
     margin: 0; }
@@ -667,7 +658,7 @@ img.size-full {
   background: url("//2016.porto.wordcamp.org/files/2016/02/logo-500.png") 50% 100% no-repeat;
   background-size: 200px 250px;
   padding-bottom: 20em;
-  max-width: 90%; }
+  max-width: 95%; }
   @media only screen and (min-width: 1024px) {
     #main {
       max-width: 60em; } }
@@ -695,7 +686,7 @@ article.post, article.page {
   background-repeat: no-repeat, no-repeat;
   background-position: 0 0, 50% 100%;
   background-size: contain;
-  padding: 5em 1.5em 1.5em; }
+  padding: 5em .5em 1.5em; }
   @media only screen and (min-width: 768px) {
     article.post, article.page {
       padding: 10em 2.5em 2.5em; } }
@@ -929,19 +920,25 @@ article.post, article.page {
 
 /* =Schedule
 ----------------------------------------------- */
-.wcpt-schedule tbody tr:nth-of-type(odd) {
-  background: #fafafa; }
+.wcpt-schedule {
+  width: 100%; }
+  .wcpt-schedule tbody tr:nth-of-type(odd) {
+    background: #fafafa; }
+  .wcpt-schedule tbody td {
+    padding: 1em;
+    text-align: center; }
+  .wcpt-schedule a {
+    display: block; }
 
-.wcpt-schedule tbody td {
-  padding: 1em;
-  text-align: center; }
+.wcpt-col-time {
+  width: 100px; }
 
-.wcpt-schedule a {
-  display: block; }
+span.wcpt-session-speakers:before {
+  content: ''; }
 
 #after-header-widgets {
   margin: 1.5em auto;
-  max-width: 90%; }
+  max-width: 95%; }
   @media only screen and (min-width: 1024px) {
     #after-header-widgets {
       max-width: 60em; } }
@@ -968,7 +965,7 @@ article.post, article.page {
       text-align: center;
       color: #f9f4ef; }
     #after-header-widgets .widget:nth-child(1) a {
-      background-color: #24648E; }
+      background-color: #24648e; }
       #after-header-widgets .widget:nth-child(1) a:hover {
         background-color: #ff6d63; }
     #after-header-widgets .widget:nth-child(2) a {
@@ -1030,7 +1027,7 @@ article.post, article.page {
       width: 30%; } }
 
 .widget h4 {
-  background-color: #24648E;
+  background-color: #24648e;
   padding: 1em;
   text-transform: uppercase;
   color: #fff;
@@ -1097,7 +1094,7 @@ article.post, article.page {
 #footer-widgets {
   margin: 0 auto;
   padding: 1.125em;
-  max-width: 90%; }
+  max-width: 95%; }
   @media only screen and (min-width: 1024px) {
     #footer-widgets {
       max-width: 60em; } }
@@ -1122,6 +1119,12 @@ article.post, article.page {
       clear: both;
       margin-top: 1em; } }
 
+.tix_tickets_table {
+  font-size: .9em; }
+  @media only screen and (min-width: 768px) {
+    .tix_tickets_table {
+      font-size: 1em; } }
+
 textarea {
   max-width: 100%; }
 
@@ -1130,7 +1133,7 @@ input[type='submit'] {
   margin: 1em auto;
   border: 0 none;
   border-radius: .25em;
-  background: #24648E;
+  background: #24648e;
   cursor: pointer;
   padding: .5em 1em;
   text-transform: uppercase;
@@ -1212,7 +1215,7 @@ input[type='submit']:hover {
   transition: all 300ms;
   border: 0 none;
   border-radius: 4px;
-  background: #24648E;
+  background: #24648e;
   cursor: pointer;
   padding: .5em .75em;
   text-transform: uppercase;

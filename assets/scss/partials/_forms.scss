@@ -1,6 +1,13 @@
 // forms
+.tix_tickets_table {
+	font-size: .9em;
 
-textarea{
+	@media only screen and (min-width: $size-m) {
+		font-size: 1em;
+	}
+}
+
+textarea {
 	max-width: 100%;
 }
 
