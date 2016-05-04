@@ -36,6 +36,11 @@
 	width: 100px;
 }
 
+span.wcpt-session-speakers:before {
+	color: $color-set-1-2;
+	content: 'Por: '
+}
+
 /* =Asides
 ----------------------------------------------- */
 .blog .format-aside .entry-title,

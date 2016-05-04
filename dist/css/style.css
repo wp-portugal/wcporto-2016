@@ -597,6 +597,10 @@ footer .entry-meta {
 .wcpt-col-time {
   width: 100px; }
 
+span.wcpt-session-speakers:before {
+  color: #70b1db;
+  content: 'Por: '; }
+
 /* =Asides
 ----------------------------------------------- */
 .blog .format-aside .entry-title,
