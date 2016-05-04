@@ -357,10 +357,11 @@ article {
 	.wcorg-sponsor-level-porto-edicao-especial {
 		img {
 			max-width: 90%;
-			max-height: 7em;
+			max-height: 3em;
 
 			@media only screen and (min-width: $size-m) {
 				max-width: 15em;
+				max-height: 7em;
 			}
 		}
 	}
@@ -368,21 +369,23 @@ article {
 	.wcorg-sponsor-level-porto-vintage {
 		img {
 			max-width: 80%;
-			max-height: 6em;
+			max-height: 2.5em;
 
 			@media only screen and (min-width: $size-m) {
 				max-width: 12.5em;
+				max-height: 6em;
 			}
 		}
 	}
 
 	.wcorg-sponsor-level-porto-late-bottled-vintage {
 		img {
-			max-width: 70em;
-			max-height: 5em;
+			max-width: 70%;
+			max-height: 2.25em;
 
 			@media only screen and (min-width: $size-m) {
 				max-width: 10em;
+				max-height: 5em;
 			}
 		}
 	}
@@ -390,11 +393,12 @@ article {
 	.wcorg-sponsor-level-porto-reserva,
 	.wcorg-sponsor-level-media-partner {
 		img {
-			max-width: 65%;
-			max-height: 4em;
+			max-width: 60%;
+			max-height: 2em;
 
 			@media only screen and (min-width: $size-m) {
 				max-width: 7.5em;
+				max-height: 4em;
 			}
 		}
 	}
@@ -403,10 +407,11 @@ article {
 	.wcorg-sponsor-level-after-party-partner {
 		img {
 			max-width: 50%;
-			max-height: 3em;
+			max-height: 1.75em;
 
 			@media only screen and (min-width: $size-m) {
 				max-width: 5em;
+				max-height: 3em;
 			}
 		}
 	}
