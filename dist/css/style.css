@@ -725,6 +725,10 @@ article.post, article.page {
   margin: 2.25em 1em;
   font-size: 1.75em; }
 
+.entry-content ol,
+.entry-content ul {
+  margin: 0; }
+
 .comment-content blockquote {
   margin: 1.5em .75em;
   font-size: 1.5em; }
