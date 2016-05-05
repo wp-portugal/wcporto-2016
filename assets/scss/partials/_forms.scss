@@ -60,6 +60,7 @@ input[type='submit']:hover {
 
 	.contact-submit {
 		margin: 1em 0;
+		max-width: calc(100% - .5em);
 		text-align: center;
 	}
 }
@@ -70,7 +71,7 @@ input[type='submit']:hover {
 	border-radius: 2px;
 	box-shadow: 0 0 12px transparentize($color-set-1-1, .9);
 	background: $white;
-	padding: 2.5em;
+	padding: .5em;
 
 	.comments-title {
 		margin-bottom: 2.25em;
@@ -92,6 +93,10 @@ input[type='submit']:hover {
 		margin: 0 0 1.125em;
 		line-height: 1.5;
 		font-size: .75em;
+	}
+
+	@media only screen and (min-width: $size-m) {
+		padding: 2.5em;
 	}
 }
 

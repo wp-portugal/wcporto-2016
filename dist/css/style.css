@@ -1202,6 +1202,7 @@ input[type='submit']:hover {
 .entry-content .contact-submit,
 .comment-content .contact-submit {
   margin: 1em 0;
+  max-width: calc(100% - .5em);
   text-align: center; }
 
 .comments-area {
@@ -1210,7 +1211,7 @@ input[type='submit']:hover {
   border-radius: 2px;
   box-shadow: 0 0 12px rgba(51, 143, 203, 0.1);
   background: #fff;
-  padding: 2.5em; }
+  padding: .5em; }
   .comments-area .comments-title {
     margin-bottom: 2.25em;
     line-height: 1.125;
@@ -1225,6 +1226,9 @@ input[type='submit']:hover {
     margin: 0 0 1.125em;
     line-height: 1.5;
     font-size: .75em; }
+  @media only screen and (min-width: 768px) {
+    .comments-area {
+      padding: 2.5em; } }
 
 .commentlist li {
   margin: 0 0 1.75em;
