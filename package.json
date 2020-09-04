@@ -17,7 +17,7 @@
     "gulp-util": "^3.0.7",
     "gulp-watch": "^4.3.5",
     "node-normalize-scss": "^1.2.0",
-    "node-sass": "^3.4.2",
+    "node-sass": "^4.14.1",
     "npm": "^6.13.4"
   },
   "scripts": {
